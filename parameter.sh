@@ -7,3 +7,6 @@ cat copyfile.txt
 echo "${sec}"
 pwd
 ls
+echo "${JOB_NAME}"
+echo "${BUILD_ID}"
+ls
