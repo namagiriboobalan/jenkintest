@@ -5,3 +5,5 @@ echo "execute as ${username}_user"
 echo "executing in ${env}_environment"
 cat copyfile.txt
 echo "${sec}"
+pwd
+ls
