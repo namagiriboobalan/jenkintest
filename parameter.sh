@@ -12,3 +12,4 @@ echo "${BUILD_ID}"
 ls
 ls
 ls
+pwe
