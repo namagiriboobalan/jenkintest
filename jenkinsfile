@@ -3,14 +3,9 @@ pipeline{
 		stages {
 				stage('Stage-1') {
 			agent {label 'agent1'}
-	steps {
-		sh 'touch agent1'
-                  }
-                     }
-stage('Stage-2') {
-		agent {label'tomcat'}
-			steps {
-					sh 'touch tomcat'
-                }
-                    }
-                         }
+				steps {
+					sh 'touch agent1'
+                  			}
+                     			}
+                    	}
+                        }
