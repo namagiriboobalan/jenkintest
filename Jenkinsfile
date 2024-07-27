@@ -1,10 +1,9 @@
 pipeline{
-	agent none
+	agent any
 		stages {
 				stage('Stage-1') {
-			agent {label 'agent1'}
 				steps {
-					sh 'touch agent1'
+					sh 'touch file1'
                   			}
                      			}
                     	}
