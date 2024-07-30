@@ -9,6 +9,7 @@ pipeline {
             steps {
                 echo 'Hello World'
                 echo 'This is example for Git hook trigger'
+                echo 'This line is added'
              }
         }
     }
