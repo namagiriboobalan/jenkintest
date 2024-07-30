@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    trigger {
+        githubPush()
+        }
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+                echo 'This is example for Git hook trigger'
+            }
+        }
+    }
+}
